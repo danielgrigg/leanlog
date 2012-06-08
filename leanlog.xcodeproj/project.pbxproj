@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		65647156152C0C73009162AC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 65647155152C0C73009162AC /* libz.dylib */; };
+		6571E146152ECAFB001F642A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 6571E145152ECAFB001F642A /* Icon.png */; };
+		65AE521F1524903500F9A278 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE521E1524903500F9A278 /* UIKit.framework */; };
+		65AE52211524903500F9A278 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE52201524903500F9A278 /* Foundation.framework */; };
+		65AE52231524903500F9A278 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE52221524903500F9A278 /* CoreGraphics.framework */; };
+		65AE52291524903500F9A278 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65AE52271524903500F9A278 /* InfoPlist.strings */; };
+		65AE522B1524903500F9A278 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AE522A1524903500F9A278 /* main.m */; };
+		65AE522F1524903500F9A278 /* leanlogAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AE522E1524903500F9A278 /* leanlogAppDelegate.m */; };
+		65AE52321524903500F9A278 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65AE52301524903500F9A278 /* MainWindow.xib */; };
+		65AE52351524903500F9A278 /* MeasureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AE52341524903500F9A278 /* MeasureViewController.m */; };
+		65AE52381524903500F9A278 /* UploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AE52371524903500F9A278 /* UploadViewController.m */; };
+		65AE523B1524903500F9A278 /* MeasureView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65AE52391524903500F9A278 /* MeasureView.xib */; };
+		65AE523E1524903500F9A278 /* UploadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65AE523C1524903500F9A278 /* UploadView.xib */; };
+		65AE5246152491B000F9A278 /* FTPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AE5245152491B000F9A278 /* FTPService.m */; };
+		65AE52481524A1C600F9A278 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE52471524A1C600F9A278 /* CFNetwork.framework */; };
+		65AE524E152959A000F9A278 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65AE524D152959A000F9A278 /* CoreMotion.framework */; };
+		65AE525515296BD900F9A278 /* ManageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65AE525315296BD900F9A278 /* ManageViewController.m */; };
+		65AE525615296BD900F9A278 /* ManageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65AE525415296BD900F9A278 /* ManageView.xib */; };
+		65D4B930152AB4BE00F55A9F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65D4B92F152AB4BE00F55A9F /* CoreLocation.framework */; };
+		65E61DC71529B15200B96A67 /* util.m in Sources */ = {isa = PBXBuildFile; fileRef = 65E61DC61529B15200B96A67 /* util.m */; };
+		65EA51BB1581EF9B00058593 /* GZWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EA51BA1581EF9B00058593 /* GZWriter.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		65647155152C0C73009162AC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		65647157152C0F19009162AC /* leanlog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leanlog.h; sourceTree = "<group>"; };
+		6571E145152ECAFB001F642A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../Icon.png; sourceTree = "<group>"; };
+		65AE521A1524903500F9A278 /* leanlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leanlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AE521E1524903500F9A278 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		65AE52201524903500F9A278 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		65AE52221524903500F9A278 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		65AE52261524903500F9A278 /* leanlog-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "leanlog-Info.plist"; sourceTree = "<group>"; };
+		65AE52281524903500F9A278 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		65AE522A1524903500F9A278 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		65AE522C1524903500F9A278 /* leanlog-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "leanlog-Prefix.pch"; sourceTree = "<group>"; };
+		65AE522D1524903500F9A278 /* leanlogAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leanlogAppDelegate.h; sourceTree = "<group>"; };
+		65AE522E1524903500F9A278 /* leanlogAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = leanlogAppDelegate.m; sourceTree = "<group>"; };
+		65AE52311524903500F9A278 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		65AE52331524903500F9A278 /* MeasureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MeasureViewController.h; sourceTree = "<group>"; };
+		65AE52341524903500F9A278 /* MeasureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MeasureViewController.m; sourceTree = "<group>"; };
+		65AE52361524903500F9A278 /* UploadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UploadViewController.h; sourceTree = "<group>"; };
+		65AE52371524903500F9A278 /* UploadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UploadViewController.m; sourceTree = "<group>"; };
+		65AE523A1524903500F9A278 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MeasureView.xib; sourceTree = "<group>"; };
+		65AE523D1524903500F9A278 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = UploadView.xib; sourceTree = "<group>"; };
+		65AE5244152491B000F9A278 /* FTPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FTPService.h; sourceTree = "<group>"; };
+		65AE5245152491B000F9A278 /* FTPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FTPService.m; sourceTree = "<group>"; };
+		65AE52471524A1C600F9A278 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		65AE524D152959A000F9A278 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		65AE525215296BD800F9A278 /* ManageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManageViewController.h; sourceTree = "<group>"; };
+		65AE525315296BD900F9A278 /* ManageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManageViewController.m; sourceTree = "<group>"; };
+		65AE525415296BD900F9A278 /* ManageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ManageView.xib; sourceTree = "<group>"; };
+		65D4B92F152AB4BE00F55A9F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		65E61DC51529B0ED00B96A67 /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		65E61DC61529B15200B96A67 /* util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = util.m; sourceTree = "<group>"; };
+		65EA51B91581EF9B00058593 /* GZWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZWriter.h; sourceTree = "<group>"; };
+		65EA51BA1581EF9B00058593 /* GZWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZWriter.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65AE52171524903500F9A278 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65647156152C0C73009162AC /* libz.dylib in Frameworks */,
+				65D4B930152AB4BE00F55A9F /* CoreLocation.framework in Frameworks */,
+				65AE524E152959A000F9A278 /* CoreMotion.framework in Frameworks */,
+				65AE52481524A1C600F9A278 /* CFNetwork.framework in Frameworks */,
+				65AE521F1524903500F9A278 /* UIKit.framework in Frameworks */,
+				65AE52211524903500F9A278 /* Foundation.framework in Frameworks */,
+				65AE52231524903500F9A278 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65AE520F1524903400F9A278 = {
+			isa = PBXGroup;
+			children = (
+				6571E145152ECAFB001F642A /* Icon.png */,
+				65AE52241524903500F9A278 /* leanlog */,
+				65AE521D1524903500F9A278 /* Frameworks */,
+				65AE521B1524903500F9A278 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65AE521B1524903500F9A278 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65AE521A1524903500F9A278 /* leanlog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65AE521D1524903500F9A278 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65D4B92F152AB4BE00F55A9F /* CoreLocation.framework */,
+				65AE524D152959A000F9A278 /* CoreMotion.framework */,
+				65647155152C0C73009162AC /* libz.dylib */,
+				65AE52471524A1C600F9A278 /* CFNetwork.framework */,
+				65AE521E1524903500F9A278 /* UIKit.framework */,
+				65AE52201524903500F9A278 /* Foundation.framework */,
+				65AE52221524903500F9A278 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		65AE52241524903500F9A278 /* leanlog */ = {
+			isa = PBXGroup;
+			children = (
+				65EA51B91581EF9B00058593 /* GZWriter.h */,
+				65EA51BA1581EF9B00058593 /* GZWriter.m */,
+				65AE522D1524903500F9A278 /* leanlogAppDelegate.h */,
+				65AE522E1524903500F9A278 /* leanlogAppDelegate.m */,
+				65AE52301524903500F9A278 /* MainWindow.xib */,
+				65AE525215296BD800F9A278 /* ManageViewController.h */,
+				65AE525315296BD900F9A278 /* ManageViewController.m */,
+				65AE525415296BD900F9A278 /* ManageView.xib */,
+				65AE52331524903500F9A278 /* MeasureViewController.h */,
+				65AE52341524903500F9A278 /* MeasureViewController.m */,
+				65AE52391524903500F9A278 /* MeasureView.xib */,
+				65AE52361524903500F9A278 /* UploadViewController.h */,
+				65AE52371524903500F9A278 /* UploadViewController.m */,
+				65AE523C1524903500F9A278 /* UploadView.xib */,
+				65AE52251524903500F9A278 /* Supporting Files */,
+				65AE5244152491B000F9A278 /* FTPService.h */,
+				65AE5245152491B000F9A278 /* FTPService.m */,
+				65E61DC51529B0ED00B96A67 /* util.h */,
+				65E61DC61529B15200B96A67 /* util.m */,
+				65647157152C0F19009162AC /* leanlog.h */,
+			);
+			path = leanlog;
+			sourceTree = "<group>";
+		};
+		65AE52251524903500F9A278 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65AE52261524903500F9A278 /* leanlog-Info.plist */,
+				65AE52271524903500F9A278 /* InfoPlist.strings */,
+				65AE522A1524903500F9A278 /* main.m */,
+				65AE522C1524903500F9A278 /* leanlog-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65AE52191524903500F9A278 /* leanlog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65AE52411524903500F9A278 /* Build configuration list for PBXNativeTarget "leanlog" */;
+			buildPhases = (
+				65AE52161524903500F9A278 /* Sources */,
+				65AE52171524903500F9A278 /* Frameworks */,
+				65AE52181524903500F9A278 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = leanlog;
+			productName = leanlog;
+			productReference = 65AE521A1524903500F9A278 /* leanlog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65AE52111524903400F9A278 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Daniel Grigg";
+			};
+			buildConfigurationList = 65AE52141524903400F9A278 /* Build configuration list for PBXProject "leanlog" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 65AE520F1524903400F9A278;
+			productRefGroup = 65AE521B1524903500F9A278 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65AE52191524903500F9A278 /* leanlog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65AE52181524903500F9A278 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AE52291524903500F9A278 /* InfoPlist.strings in Resources */,
+				65AE52321524903500F9A278 /* MainWindow.xib in Resources */,
+				65AE523B1524903500F9A278 /* MeasureView.xib in Resources */,
+				65AE523E1524903500F9A278 /* UploadView.xib in Resources */,
+				65AE525615296BD900F9A278 /* ManageView.xib in Resources */,
+				6571E146152ECAFB001F642A /* Icon.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65AE52161524903500F9A278 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65AE522B1524903500F9A278 /* main.m in Sources */,
+				65AE522F1524903500F9A278 /* leanlogAppDelegate.m in Sources */,
+				65AE52351524903500F9A278 /* MeasureViewController.m in Sources */,
+				65AE52381524903500F9A278 /* UploadViewController.m in Sources */,
+				65AE5246152491B000F9A278 /* FTPService.m in Sources */,
+				65AE525515296BD900F9A278 /* ManageViewController.m in Sources */,
+				65E61DC71529B15200B96A67 /* util.m in Sources */,
+				65EA51BB1581EF9B00058593 /* GZWriter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65AE52271524903500F9A278 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AE52281524903500F9A278 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		65AE52301524903500F9A278 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AE52311524903500F9A278 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		65AE52391524903500F9A278 /* MeasureView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AE523A1524903500F9A278 /* en */,
+			);
+			name = MeasureView.xib;
+			sourceTree = "<group>";
+		};
+		65AE523C1524903500F9A278 /* UploadView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65AE523D1524903500F9A278 /* en */,
+			);
+			name = UploadView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65AE523F1524903500F9A278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		65AE52401524903500F9A278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65AE52421524903500F9A278 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "leanlog/leanlog-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "leanlog/leanlog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		65AE52431524903500F9A278 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "leanlog/leanlog-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "leanlog/leanlog-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65AE52141524903400F9A278 /* Build configuration list for PBXProject "leanlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AE523F1524903500F9A278 /* Debug */,
+				65AE52401524903500F9A278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65AE52411524903500F9A278 /* Build configuration list for PBXNativeTarget "leanlog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65AE52421524903500F9A278 /* Debug */,
+				65AE52431524903500F9A278 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65AE52111524903400F9A278 /* Project object */;
+}
