@@ -64,7 +64,7 @@ double radiansToDegrees(double r) { return 180.0 * r / 3.14159265358979; }
 - (void)locationManager:(CLLocationManager *)manager 
        didUpdateHeading:(CLHeading *)newHeading {
 #ifdef DEBUG
-//  NSLog(@"Heading: %@", newHeading);
+  NSLog(@"Heading: %@", newHeading);
 #endif
 }
 

@@ -33,7 +33,7 @@
 /* Begin PBXFileReference section */
 		65647155152C0C73009162AC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		65647157152C0F19009162AC /* leanlog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = leanlog.h; sourceTree = "<group>"; };
-		6571E145152ECAFB001F642A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../../Icon.png; sourceTree = "<group>"; };
+		6571E145152ECAFB001F642A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		65AE521A1524903500F9A278 /* leanlog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = leanlog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		65AE521E1524903500F9A278 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		65AE52201524903500F9A278 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
